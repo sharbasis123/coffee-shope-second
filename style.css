@@ -1,0 +1,356 @@
+
+body{
+ margin:0px
+}
+li{
+    list-style-type: none;
+}
+.meanu li a{
+    text-decoration: none;
+    color: white;
+}
+.meanu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin: 0px;
+   padding: 0px;
+   background-image: url("https://i.ibb.co/ysffP34/Whats-App-Image-2024-05-12-at-13-23-29-1.jpg");
+}
+.meanu li{
+    margin-left: 70px;
+    font-size: 20px;
+}
+.hcoffeimg img{
+  width: 70px;
+  padding: 0 140px;
+}
+
+
+/* ///////////////////// */
+
+.morning-coffe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+    background-image: url("https://i.postimg.cc/3NnK96qZ/3d-rendered-photo-coffee-cup-egg-804007-22665.avif");
+    background-repeat: no-repeat;
+background-size: cover;
+    padding-bottom: 50px;
+}
+.morning-heade{
+    
+    font-size: 80px;
+}
+.morning-para{
+   margin: 0px 50ex;
+}
+.morning-button{
+    background-color: rgb(208, 15, 15);
+    color: aliceblue;
+    font-size: 17px;
+    border-radius: 5px;
+    margin-top: 45px;
+    padding: 15px 36px;
+    transition: all 0.5s ease;
+}
+.morning-button:hover{
+    color:black;
+    font-weight:bold;
+    animation: myanimation 0.5s infinite;
+    
+}
+  
+  @keyframes myanimation {
+    0% {background-color: red;}
+    25%{background-color:yellow;}
+    50%{background-color:green;}
+    75%{background-color:brown;}
+    100% {background-color: red;}
+  }
+
+.mydiv {
+    width:100%;
+    height:100%;
+    color:black;
+    font-weight:bold;
+    animation: myanimation 1s infinite;
+  }
+  
+ 
+
+/* //////////// */
+.gift-vou{
+    height: 400px;
+}
+.gift{
+    display: flex;
+    background-image: url("https://i.ibb.co/J3Sxwn7/Whats-App-Image-2024-05-12-at-13-23-30-1.jpg");
+    align-items: center;
+    color: aliceblue;
+    padding: 30px;
+}
+.giftimg img{
+  width: 300px;
+    max-width: 90%;
+    transition: all 0.3s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+}
+
+.giftimg:hover img {
+    transform: scale(1.1);
+}
+.giftimg{
+    margin: 10px 77px;
+}
+.gift-header{
+    font-size: 40px;
+    margin-top: 30px;
+}
+.gift-button{
+    color: brown;
+    padding: 10px 26px;
+    transition: all 0.5s ease;
+}
+.gift-button:hover{
+    border-radius: 25px;
+    font-size: 15px;
+    padding: 15px;
+}
+.gift-para{
+    width: 105ex;
+    padding-bottom: 13px;
+}
+
+
+/* //////// */
+.nyc{
+    display: flex;
+    /* align-items: center; */
+    background-color: rgb(243, 255, 189);
+}
+.nycimg img{
+    width: 542px;
+    height: 580px;
+}
+.nycbody{
+    width: 500px;
+    margin-left: 140px;
+}
+.nycheade{
+    font-size: 60px;
+}
+.nyca{
+    margin-top: 15px;
+    color: red;
+}
+
+
+/* ////////////// */
+
+.Menu{
+    padding: 20px;
+    background-image: url("https://i.ibb.co/C2wc8FT/Whats-App-Image-2024-05-12-at-13-23-30.jpg");
+    color: aliceblue;
+}
+.Menuheader{
+      display: flex;
+      justify-content: center;
+    font-size: 53px;
+}
+.Menupara{
+    margin-left: auto;
+    margin-right: auto;
+    width: 150ex;
+    text-align: center;
+}
+.menubody{
+    display: flex;
+    justify-content: center;
+}
+.americno{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 70px;
+
+}
+.americno-img img{
+    width: 335px;
+}
+.americno-heade{
+    font-size: 40px;
+}
+.americno-button{
+    background-color: rgb(211, 42, 42);
+    margin-left: 50px;
+    position:absolute;
+    padding: 5px;
+    color: aliceblue;
+    margin-top: 10px;
+    font-size: 15px;
+    background-color: rgb(188, 7, 7);
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 0.9em;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #444;
+    transition: all 0.3s ease;
+    transform: translate(-50%, -50%);
+    &:hover {
+      box-shadow: 0 0 30px grey;
+      padding: 10px 20px;
+      font-size: 1.2em;
+    }
+}
+.americno-paragap{
+    background-color: white;
+    color: black;
+    padding: 45px;
+    height: 345px;
+   
+}
+.para{
+    width: 217px;
+}
+.americno-paragapp{
+    background-color: white;
+    color: black;
+    padding: 31px;
+    height: 373px;
+}
+.paraa{
+    width: 242px;
+}
+
+
+/* /////////////////// */
+.storematha{
+    background-color: rgb(243, 255, 189);
+    padding: 54px 181px;
+
+    
+}
+.Menuheaderr{
+    display: flex;
+    justify-content: center;
+    color: rgb(243, 25, 25);
+    font-size: 53px;
+}
+.Menuparaa{
+    margin-left: auto;
+    margin-right: auto;
+    width: 150ex;
+    color:rgb(243, 25, 25) ;
+    text-align: center;
+}
+.store{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+.store-img img{
+    width: 245px;
+}
+.store-main{
+    background-color: white;
+    width: 246px;
+    height: 400px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.store-golpo{
+    font-size: 17px;
+    width: 188px;
+    margin: 29px;
+}
+.store-button{
+    font-size: 21px;
+    background-color: rgb(188, 7, 7);
+    color: whitesmoke;
+
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 1.2em;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #444;
+    transition: all 0.3s ease;
+    transform: translate(-50%, -50%);
+    &:hover {
+      box-shadow: 0 0 30px grey;
+      padding: 18px 30px;
+      font-size: 1.4em;
+    }
+    
+}
+.storehead{
+   background-color: rgb(243, 255, 189);
+   border: 1px solid rgb(230, 28, 28);
+   color:rgb(217, 5, 5);
+   position: relative;
+  margin-top: -30px;
+  padding: 14px 11px;
+  margin-left: auto;
+  margin-right: auto;
+   width: 97px;  
+   font-size: 29px;
+}
+.storeheadd{
+   background-color: rgb(243, 255, 189);
+   border: 1px solid rgb(230, 28, 28);
+   color:rgb(217, 5, 5);
+   position: relative;
+  margin-top: -32px;
+  padding: 14px 33px;
+  margin-left: auto;
+  margin-right: auto;
+   width: 106px;  
+   font-size: 28px;
+}
+
+
+/* //////////////// */
+
+
+.Company{
+    background-image: url("https://i.ibb.co/C2wc8FT/Whats-App-Image-2024-05-12-at-13-23-30.jpg");
+    color: white;
+    display: flex;
+    /* align-items: center; */
+    padding: 60px;
+}
+.Companyimg img {
+    width: 500px;
+    max-width: 90%;
+    transition: all 0.3s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+}
+
+.Companyimg:hover img {
+    transform: scale(1.1);
+}
+
+.Company-Profile{
+    margin-left: 30px ;
+    margin-top: 77px;
+}
+.Companyhead{
+    font-size: 55px;
+}
+.Companypara{
+    width: 623px;
+}
+
